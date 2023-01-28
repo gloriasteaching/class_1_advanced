@@ -173,5 +173,6 @@ forever(function () {
         ...........bbbbbddd11111111111dddbbbbb...........
         ................bbbbbbbbbbbbbbbbb................
         `, 50, 50)
-    pause(1000)
+    music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
+    pause(2000)
 })
